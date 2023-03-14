@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon-32x32.png" />
+    <title>SummaryCard</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="center">
+        <span id="first"
+          ><img src="icon-sedans.svg" alt="" />
+          <p>SEDANS</p>
+          <p id="para1" class="para">
+            Choose a SEDANS for its affordibality and excellent fuel economy,
+            ideal for crusing in the city and your next road trip.
+          </p>
+          <button id="btn1">Learn more</button>
+        </span>
+        <span id="second"
+          ><img src="icon-luxury.svg" alt="" />
+          <p>LUXURY</p>
+          <p id="para2" class="para">
+            Choose a SEDANS for its affordibality and excellent fuel economy,
+            ideal for crusing in the city and your next road trip.
+          </p>
+          <button id="btn2">Learn more</button>
+        </span>
+        <span id="third"
+          ><img src="icon-suvs.svg" alt="" />
+          <p>SUVS</p>
+          <p id="para3" class="para">
+            Choose a SEDANS for its affordibality and excellent fuel economy,
+            ideal for crusing in the city and your next road trip.
+          </p>
+          <button id="btn3">Learn more</button>
+        </span>
+      </div>
+    </div>
+    <div class="check">
+      
+    </div>
+    <script>
+      document.getElementById("btn1").addEventListner("mouseover", getLarge);
+
+      function getLarge() {
+        document.getElementById("first").style.width = "210px";
+      }
+    </script>
+  </body>
+</html>
